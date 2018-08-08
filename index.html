@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Gallery</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster|PT+Sans+Narrow|Work+Sans" rel="stylesheet">
+		<script>
+			function change_image(_src) {
+				document.getElementById("big").src = _src;
+				//alert(_src);
+			}
+
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="side_panel">
+				<div class="all_images">
+					<div class="small">
+						<img src="img/bride_colour.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/girl_boy.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/sainath.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/hope.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/tear.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/cry.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/bride.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/ganesha.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/don.jpg" onclick="change_image(this.src)"/>
+					</div>
+					<div class="small">
+						<img src="img/hug.jpg" onclick="change_image(this.src)"/>
+					</div>
+
+				</div>
+			</div>
+			<div class="view">
+				<div class="image">
+					<img id="big" src="img/bride_colour.jpg"/>;
+				</div>
+				<div class="text">
+				Sketches By Aarti Sharma
+				</div>
+			<div>
+		<div>
+	</body>
+</html>
